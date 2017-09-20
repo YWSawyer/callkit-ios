@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/YWSawyer/callkit-ios.git", :tag => s.version }
 
-  s.source_files  = "ios-rongcallkit/RongCallKit", "*.{h,m,mm}"
+  s.source_files  = "ios-rongcallkit/*", "*.{h,m,mm}"
 
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency 'RongCloudIM/IMLib', '2.8.0'
-  s.dependency 'RongCloudIM/IMKit', '2.8.0'
-  s.dependency 'RongCloudIM/CallLib', '2.8.0'
+#s.dependency 'RongCloudIM/IMLib', '2.8.0'
+# s.dependency 'RongCloudIM/IMKit', '2.8.0'
+# s.dependency 'RongCloudIM/CallLib', '2.8.0'
 
 end
