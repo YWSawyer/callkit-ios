@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YWRongCloudCallKit"
-  s.version      = "0.0.1"
+  s.version      = "3.0.0"
   s.summary      = "YWRongCloudCallKit is forked from callkit-ios,but it is not support cocoapods,So it just support cocoapods "
   s.description  = <<-DESC 
                       Open-source code of RongCloud VoIP Audio/Video UI
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/YWSawyer/callkit-ios.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/YWSawyer/callkit-ios.git", :tag => s.version }
 
   s.source_files  = "ios-rongcallkit/RongCallKit", "*.{h,m,mm}"
 
