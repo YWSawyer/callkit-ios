@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/YWSawyer/callkit-ios.git", :tag => "0.0.1" }
 
-  s.source_files  = "ios-rongcallkit/RongCallKit", "*.{h,m}"
+  s.source_files  = "ios-rongcallkit/RongCallKit", "*.{h,m,mm}"
 
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
